@@ -103,7 +103,6 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
  - After the process is finished, FTK Imager generates a log file containing all details (case info, hash values, acquisition time, etc.).
 
  - Save this log file along with the image, since it acts as proof of authenticity and integrity.
-![Fig-9](<Output Screenshot/Exp1/Screenshot 2025-08-31 174812.png>)
 
 ---
 
