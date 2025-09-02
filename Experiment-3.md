@@ -20,7 +20,7 @@ This experiment demonstrates how to use Wireshark to capture network traffic, fi
 
 **Launch Wireshark**  
    - Open Wireshark with administrative privileges.
- ![alt text](<Output Screenshot/Exp3/Screenshot (73).png>) 
+ ![Fig-1](<Output Screenshot/3-1.png>) 
 
    - The home screen displays all available network interfaces. 
 
@@ -35,18 +35,18 @@ This experiment demonstrates how to use Wireshark to capture network traffic, fi
 
 **Start Packet Capture**  
    - Wireshark begins displaying live packet data in real time. 
-![alt text](<Output Screenshot/Exp3/Screenshot (74).png>)
+![Fig-2](<Output Screenshot/Exp3/Screenshot (74).png>)
 
    - Each packet shows **Time, Source, Destination, Protocol, and Info**.  
-![alt text](<Output Screenshot/Exp3/Screenshot (79).png>)
+![Fig-3](<Output Screenshot/Exp3/Screenshot (79).png>)
 
 **Apply Capture/Display Filters**
    - Use filters to focus on specific traffic. Examples:
      - `http` → only HTTP traffic
-    ![alt text](<Output Screenshot/Exp3/Screenshot (76).png>)
+    ![Fig-4](<Output Screenshot/Exp3/Screenshot (76).png>)
 
      - `tcp.port == 80` → traffic on TCP port 80
-    ![alt text](<Output Screenshot/Exp3/Screenshot (77).png>)
+    ![Fig-5](<Output Screenshot/Exp3/Screenshot (77).png>)
 
      - `ip.addr == 10.2.24.13` → traffic to/from a specific IP 
   
@@ -57,14 +57,14 @@ This experiment demonstrates how to use Wireshark to capture network traffic, fi
    - The breakdown shows Ethernet, IP, TCP/UDP, and application layer data.
 
    - Raw packet data is displayed in hexadecimal/ASCII format.
-![alt text](<Output Screenshot/Exp3/Screenshot 2025-08-31 223412.png>) 
+![Fig-6](<Output Screenshot/Exp3/Screenshot 2025-08-31 223412.png>) 
      
 
 **Save the Capture File**  
    - Save in `.pcapng` format for later analysis.
 
    - Go to **File → Save As** and give a suitable name.  
-![alt text](<Output Screenshot/Exp3/Screenshot (80).png>)
+![Fig-7](<Output Screenshot/3-2.png>)
   
 
 **Analyze Captured Traffic**  
