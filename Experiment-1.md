@@ -35,13 +35,13 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
 **Select the Source Drive**
 
   - From the top menu, go to File → Create Disk Image.
-![Fig-2](<Output Screenshot/Exp1/Screenshot (45).png>)
+![Fig-2](Output Screenshot/Exp1/Screenshot (45).png)
   - In the dialog box, choose the type of source. Usually, for a physical storage device, select Physical Drive.
-![Fig-3](<Output Screenshot/Exp1/Screenshot (46).png>)
+![Fig-3](Output Screenshot/Exp1/Screenshot (46).png)
  - Click Next.
 
  - A list of available drives will appear. Select the storage device that you want to acquire and then click Finish.
-![Fig-4](<Output Screenshot/Exp1/Screenshot (47).png>)
+![Fig-4](Output Screenshot/Exp1/Screenshot (47).png)
 
 **Choose the Image Destination**
 
@@ -53,7 +53,7 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
     - E01 (EnCase Evidence File format) → widely used in forensics.
 
     - RAW (dd format) → bit-by-bit copy.
-![Fig-5](<Output Screenshot/Exp1/Screenshot (48).png>)
+![Fig-5](Output Screenshot/Exp1/Screenshot (48).png)
    - Click Next.
 
 **Enter Case Information Optional but Recommended**
