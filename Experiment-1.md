@@ -29,19 +29,19 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
 **Launch FTK Imager**
 
   - Open the FTK Imager tool on your computer.
-![Fig-1](<Output Screenshot/Exp1/Screenshot 2025-08-31 165800.png>)
+![Fig-1](<Output Screenshot/1.png>)
   - Make sure you run it with administrative privileges so that the tool can access hardware devices properly.
 
 **Select the Source Drive**
 
   - From the top menu, go to File → Create Disk Image.
-![Fig-2](Output Screenshot/Exp1/Screenshot (45).png)
+![Fig-2](<Output Screenshot/2.png>)
   - In the dialog box, choose the type of source. Usually, for a physical storage device, select Physical Drive.
-![Fig-3](Output Screenshot/Exp1/Screenshot (46).png)
+![Fig-3](<Output Screenshot/3.png>)
  - Click Next.
 
  - A list of available drives will appear. Select the storage device that you want to acquire and then click Finish.
-![Fig-4](Output Screenshot/Exp1/Screenshot (47).png)
+![Fig-4](<Output Screenshot/4.png>)
 
 **Choose the Image Destination**
 
@@ -53,7 +53,7 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
     - E01 (EnCase Evidence File format) → widely used in forensics.
 
     - RAW (dd format) → bit-by-bit copy.
-![Fig-5](Output Screenshot/Exp1/Screenshot (48).png)
+![Fig-5](<Output Screenshot/5.png>)
    - Click Next.
 
 **Enter Case Information Optional but Recommended**
@@ -69,7 +69,7 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
         - Notes (e.g., description of the device).
 
     - Fill in the details for proper documentation, then click Next.
-![Fig-6](<Output Screenshot/Exp1/Screenshot (49).png>)
+![Fig-6](<Output Screenshot/6.png>)
 **Set Destination Path and File Name**
 
  - Browse and select the folder where you want to save the forensic image.
@@ -81,7 +81,7 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
  - Choose the compression level if using E01 format.
 
  - Click Finish.
-![Fig-7](<Output Screenshot/Exp1/Screenshot (50).png>)
+![Fig-7](<Output Screenshot/7.png>)
 **Verify Image Options**
 
  - FTK Imager will now show a summary of the settings you selected.
@@ -89,7 +89,7 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
  - Review them carefully to make sure the correct drive and destination are selected.
 
  - Click Start to begin the imaging process.
-![Fig-8](<Output Screenshot/Exp1/Screenshot (55).png>)
+![Fig-8](<Output Screenshot/8.png>)
 **Imaging and Hash Verification**
 
  - FTK Imager will create the forensic image bit-by-bit from the source device.
