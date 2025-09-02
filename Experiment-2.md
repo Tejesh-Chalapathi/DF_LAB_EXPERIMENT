@@ -28,26 +28,26 @@ In this experiment, we use TestDisk to identify and restore deleted or damaged f
 
 **Launch TestDisk**  
    - Open the TestDisk tool (from command line or executable).  
-   ![alt text](<Output Screenshot/Exp2/Screenshot (58).png>)
+   ![alt text](<Output Screenshot/2-1.png>)
 
    - Run it with administrative privileges for full access.
 
 
 **Select Create/Append Log**  
    - On startup, choose **Create** to generate a log file for documentation.  
-    ![alt text](<Output Screenshot/Exp2/Screenshot (59).png>)
+    ![alt text](<Output Screenshot/2-2.png>)
 
 
 **Choose the Storage Device**  
    - TestDisk lists all available storage devices.
-    ![alt text](<Output Screenshot/Exp2/Screenshot (59).png>)
+    ![alt text](<Output Screenshot/2-3.png>)
 
    - Use the arrow keys to select the target device.  
 
 
 **Select Partition Table Type**  
    - TestDisk detects the partition table type (e.g., Intel/MBR, EFI GPT).
-    ![alt text](<Output Screenshot/Exp2/Screenshot (60).png>)
+    ![alt text](<Output Screenshot/2-4.png>)
 
    - Confirm the suggestion by pressing **Enter**. 
 
